@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    box-shadow: none;
+}
+
+body{
+    background-color: #F6F6F6 !important;
+
+}
+
+
+nav div a img {
+    width: 150px;
+    height: auto;
+    
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    margin: 10vh 10%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow:5px 5px 10px 0 #555 ;
+}
+.partLogin {
+    width: 50%;
+}
+.partLoginflex {
+    display: flex;
+}
+.partColor {
+    width: 50%;
+    display: flex;
+    background-image:url("../image/background.jpg") ;
+    /* background-size: contain; */
+    background-size: cover;
+    
+}
+section div div img {
+    width: 150px;
+    height: auto;
+    padding: 20px 50px;
+    
+}
+.sdectLogin{
+    display: flex;
+    margin: 37px auto;
+    gap: 25px;
+    font-size: 20px;
+}
+section div div a  {
+    color: #55555575;
+} 
+.active  {
+    color: #00C2FF;
+} 
+
+.partform {
+    margin: 60px 60px 0;
+}
+
+.partform  h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.parg{
+    color: #A9A9A9;
+}
+
+.partform input{
+    background-color: white;
+    display: block;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid #7D7D7D;
+    outline: none;
+}
+
+.ForPas {
+    color: #A9A9A9;
+    cursor: pointer;
+    text-align: end;
+}
+
+.partform button{
+    /* padding: 15px 13.4vw; */
+    background-image:linear-gradient(to right , #7EE0FF , #15AAD9) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+
+.divError {
+padding: 10px auto;
+}
+/* ******************************** */
+
+.bgcolor1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color:#00C2FF75;
+    margin: auto;
+    box-shadow: 0 0 13px 18px #0043be;
+}
+
+
+.bgcolor2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image:linear-gradient(to bottom , #15AAD9 , #0043be);
+    margin:40px auto;
+    display: flex;
+}  
+
+.partColorImg {
+    background-position:(center);
+    width: 100%;
+}
+

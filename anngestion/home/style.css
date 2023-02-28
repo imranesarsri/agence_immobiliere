@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none ;
+    /* color: white; */
+}
+
+/* ================================= Header (100vh) ================================= */
+
+body {
+    background-color: #EEF1F3;
+}
+/* hh */
+nav div a img{
+    width: 200px;
+    height: auto;
+    
+}
+/* hh */
+
+#image {
+    background-image: url("../image/bluebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header div .btn {
+    width: 123px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.signin {
+    color: #0091D9 ;
+    border: #0091D9 2px solid;
+}
+
+
+.signUp {
+    background-color: #000000;
+    color: white ;
+}
+.h1 {
+    color: #0089CD;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+/* ================================= Scroll down arrow ================================= */
+.down-arrow {
+    position: absolute;
+    top: calc(100vh - 60px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 17px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+h6 {
+    color: white;
+}
+/* ================================= Cards ================================= */
+
+.detailsButton {
+    background-color: #0091D9;
+    color: white;
+    width: 100%;
+}
+
+.detailsButton:hover {
+    border: #0089CD 1px solid;
+}
+
+/* ================================= Footer ================================= */
+
+.footertext {
+    font-weight: 600;
+}
+
+.icons {
+    color: #0089CD;
+    font-size: 24px;
+    margin-right: 10px;
+}
+/* =================================== ========================================= */
+select {
+    width: 20px;
+    border: none;
+
+}
+option {
+    border: #0089CD solid 2px;
+}
+
+
+/* ========== */
+
+.dropdown {
+    min-width:30px;
+    position: relative;
+    
+}
+.select {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px #2a2f3d solid; */
+    padding: 0.5em 0.4em 0.5em 0.6em;
+    width: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 20px;
+
+
+}
+
+.select-clicked {
+    border: 2px solid #26489a;
+    box-shadow: 0 0 0.8em #26489a;
+}
+
+.select:hover {
+    background-color: #010101;
+    color: white;
+    border-radius: 20px;
+}
+
+.menu {
+    padding: 0.2em 0.5em;
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    box-shadow: 0 0.5em 1em rgb(25 7 7 / 20%);
+    border-radius: 0.5em;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+
+}
+.menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    /* border-radius: 0.5em; */
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.539);
+}
+
+.menu li:hover {
+    background-color: #cfd1d7;
+}
+
+
+.menu-open {
+    display: block;
+    opacity: 1;
+}
+.divImgProflModal {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
