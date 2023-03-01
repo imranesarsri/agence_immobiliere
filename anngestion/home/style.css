@@ -4,25 +4,20 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
 a {
     text-decoration: none ;
-    /* color: white; */
 }
-
 /* ================================= Header (100vh) ================================= */
-
 body {
     background-color: #EEF1F3;
 }
-/* hh */
+/* nav img */
 nav div a img{
     width: 200px;
     height: auto;
     
 }
-/* hh */
-
+/* image */
 #image {
     background-image: url("../image/bluebg.jpg");
     background-repeat: no-repeat;
@@ -128,10 +123,7 @@ select {
 option {
     border: #0089CD solid 2px;
 }
-
-
 /* ========== */
-
 .dropdown {
     min-width:30px;
     position: relative;
@@ -182,7 +174,6 @@ option {
 .menu li {
     padding: 0.7em 0.5em;
     margin: 0.3em 0;
-    /* border-radius: 0.5em; */
     cursor: pointer;
     border-bottom: 2px solid rgba(0, 0, 0, 0.539);
 }
@@ -190,8 +181,6 @@ option {
 .menu li:hover {
     background-color: #cfd1d7;
 }
-
-
 .menu-open {
     display: block;
     opacity: 1;

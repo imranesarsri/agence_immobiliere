@@ -2,11 +2,6 @@
 include("connect.php");
 include("createTable.php");
 include("insertLoginUp.php");
-
-
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +17,6 @@ include("insertLoginUp.php");
     <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Lato:wght@300;400&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="index1.php"><img class="ms-5" src="../image/logo.png" alt="logo"></a>

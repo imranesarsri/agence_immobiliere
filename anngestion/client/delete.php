@@ -17,21 +17,14 @@
     </div>
   </div>
 </div>
-
-
-
 <?php
 
 if(isset($_POST["deletebtnModal"])){
   $id = $_POST["deletebtnModal"] ;
-  // echo $id ;
     $select2 = "DELETE FROM `galerie_images` WHERE `N_ann`= '$id' ";
     $result2 = $db->query($select2);
     $select = "DELETE FROM `annonce` WHERE `N_ann`= '$id'";
     $result = $db->query($select);
-
-
-
   }
 
 

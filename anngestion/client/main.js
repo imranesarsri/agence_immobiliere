@@ -123,26 +123,6 @@ Description.onblur = function () {
     }
 }
 
-// oninput
-imgPran.oninput =function() {
-    if(imgPran.value.length == 1){
-        errorImgPran.innerHTML = "<p><i class='fa-solid fa-check'></i> img principale valid</p>"
-        errorImgPran.style.color='#15AAD9'
-    }else {
-        errorImgPran.innerHTML ="<p><i class='fa-solid fa-xmark'></i> choisissez une photo</p>"
-        errorImgPran.style.color='red'
-    }
-}
-
-imgSeco.oninput =function() {
-    if(imgSeco.value.length <= 4){
-        errorimgSeco.innerHTML = "<p><i class='fa-solid fa-check'></i> choisissez img valid</p>"
-        errorimgSeco.style.color='#15AAD9'
-    }else {
-        errorimgSeco.innerHTML ="<p><i class='fa-solid fa-xmark'></i> choisissez 4 photo</p>"
-        errorimgSeco.style.color='red'
-    }
-}
 
 
 Title.oninput = function () {

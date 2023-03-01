@@ -43,9 +43,3 @@ divSubmitPage.onclick = function() {
 };
 
 
-// let signUp = document.getElementById("btnsubSignUp");
-
-// signUp.onclick = function() {
-//     window.open("../Login/index2.php");
-// }
-

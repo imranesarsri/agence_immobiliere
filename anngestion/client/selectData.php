@@ -7,23 +7,13 @@
   <title>Document</title>
 </head>
 <body>
-  
-
-
-
 <?php
-
-
-
-
 $select = "SELECT * FROM `client` WHERE `Email` = '$_SESSION[Email]'";
 $result =  $db->query($select);
 
   while($row = $result->fetch()){
     $N_cl = $row["N_cl"];
   }
-
-
 
   if (isset($_POST['btnSerch'])) {
     $searched_value = $_POST['searchResult'];
@@ -74,16 +64,11 @@ $result =  $db->query($select);
     
   }
 
-
-
-
   while($row = $result2->fetch()){
     $N_ann = $row["N_ann"];
 
     $sqlimg ="SELECT * FROM `galerie_images` WHERE `N_ann` ='$N_ann' AND `Img_type` = 1";
     $resultimg = $db->query($sqlimg);
-
-
 ?>
     <div class="card d-inline-block m-1" style="width: 18rem;">
     <?php
@@ -102,7 +87,7 @@ $result =  $db->query($select);
             <h5 class="card-title">Ville : <?php echo $row["Ville"] ?>.</h5>
             <div class="d-flex justify-content-center gap-3  mt-4">
               <button  data-bs-toggle="modal" data-bs-target="#delete<?php echo $row["N_ann"] ?>" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></button>
-              <button type="button" data-bs-toggle="modal" data-bs-target="#exam<?php echo $row["N_ann"] ?>" class="btn btn-primary"><i class="fa-solid fa-calendar-week"></i></button>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#detail<?php echo $row["N_ann"] ?>" class="btn btn-primary"><i class="fa-solid fa-calendar-week"></i></button>
               <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#edit<?= $row["N_ann"] ?>" ><i class="fa-solid fa-pen-to-square"></i></button>
               <?php
               include("UpdateModal.php");
@@ -111,27 +96,12 @@ $result =  $db->query($select);
             </div>
         </div>
     </div>
-
-
-
-
 <?php
 include("pageDetai.php");
-
-
 ?>
-
-
-
-
 <?php
 include("delete.php");
-
   }
-
 ?>
-
-
-
 </body>
 </html>

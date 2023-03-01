@@ -5,7 +5,7 @@ let EmailError = document.getElementById("EmailError")
 let PasswordError = document.getElementById("PasswordError")
 let resultMessagPassw = document.getElementById("resultMessagPassw")
 let resultMessagEmail = document.getElementById("resultMessagEmail")
-let regexemail = new RegExp('^[a-zA-Z0-9.-]+[@]{1}[a-zA-Z0-9.-_]+[.]{1}[a-z]{2,}$','g');
+let regexemail = new RegExp('^[a-zA-Z0-9.-]+[@]{1}[a-zA-Z0-9.-_]+[.]{1}[a-z]{3,}$','g');
 let regexpassw = new RegExp('^[a-zA-Z0-9.-]+[0-9.-_#$%]');
 
 

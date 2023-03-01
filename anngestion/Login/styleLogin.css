@@ -4,19 +4,15 @@
     text-decoration: none !important;
     box-shadow: none;
 }
-
 body{
     background-color: #F6F6F6 !important;
 
 }
-
-
 nav div a img {
     width: 150px;
     height: auto;
     
 }
-
 section {
     background-color: white;
     width: 80%;
@@ -57,20 +53,16 @@ section div div a  {
 .active  {
     color: #00C2FF;
 } 
-
 .partform {
     margin: 60px 60px 0;
 }
-
 .partform  h2{
     font-size: 24px;
     margin-bottom: 20px;
 }
-
 .parg{
     color: #A9A9A9;
 }
-
 .partform input{
     background-color: white;
     display: block;
@@ -79,15 +71,12 @@ section div div a  {
     border-bottom: 2px solid #7D7D7D;
     outline: none;
 }
-
 .ForPas {
     color: #A9A9A9;
     cursor: pointer;
     text-align: end;
 }
-
 .partform button{
-    /* padding: 15px 13.4vw; */
     background-image:linear-gradient(to right , #7EE0FF , #15AAD9) ;
     color: white;
     border: none;
@@ -96,12 +85,10 @@ section div div a  {
     margin-top: 40px;
 
 }
-
 .divError {
 padding: 10px auto;
 }
 /* ******************************** */
-
 .bgcolor1 {
     width: 400px;
     height: 400px;
@@ -110,8 +97,6 @@ padding: 10px auto;
     margin: auto;
     box-shadow: 0 0 13px 18px #0043be;
 }
-
-
 .bgcolor2 {
     width: 300px;
     height: 300px;
@@ -120,7 +105,6 @@ padding: 10px auto;
     margin:40px auto;
     display: flex;
 }  
-
 .partColorImg {
     background-position:(center);
     width: 100%;

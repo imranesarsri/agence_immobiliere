@@ -15,7 +15,6 @@ if(isset($_POST["subupdateEmail"])){
   
   $resultMessagEmail = "";
   
-  
     while($row = $result->fetch()){
       $NomProfil = $row["Nom"];
       $PrenomProfil = $row["Prenom"];

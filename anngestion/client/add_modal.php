@@ -48,24 +48,13 @@
                 </div>
                 
               </div>
-              <!-- <div class="input-group mb-3">
-                    <label for="formFile" class="form-label">images :</label>
-                    <input class="form-control" name="Img_url[]" type="file" id="formFile" multiple>
-                </div> -->
             </div>
-                <!-- <div class="mb-3">
-                    <label for="formFile" class="form-label">Main picture</label>
-                    <input class="form-control" type="file" id="formFile" name="image_main">
-                  </div>
-                <div class="mb-3">
-                    <label for="formFile" class="form-label">Pictures</label>
-                    <input class="form-control" type="file" multiple id="formFile" name="image_secondaire[]">
-                  </div> -->
-            <input class="form-control mt-3" name="Img_type" id="imgPran" type="file" id="formFile"> 
-            <div id="errorImgPran"></div>
-
-            <input class="form-control mt-3" name="images[]" id="imgSeco" type="file" id="formFile" multiple>
-            <div id="errorimgSeco"></div> 
+            <label for="formFile">Image principle</label>
+            <input class="form-control mt-3" name="Img_type" id="imgPran" type="file" id="formFile" required> 
+            <!-- <div id="errorImgPran"></div> -->
+            <label for="formFile">Images secondaires</label>
+            <input class="form-control mt-3" name="images[]" id="imgSeco" type="file" id="formFile" multiple required>
+            <!-- <div id="errorimgSeco"></div> -->
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="submit" name="submit" id="submit"  class="btn btn-primary">Save Add</button>

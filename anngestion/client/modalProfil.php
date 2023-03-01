@@ -55,10 +55,6 @@
 
 <!-- --------------------------------------------- -->
 
-
-
-
-
 <!-- Modal Update Name Phone number -->
 <div class="modal fade" id="updata" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -98,47 +94,6 @@
 
 <!-- --------------------------------------------- -->
 
-
-
-<!-- Modal email pssword -->
-<div class="modal fade" id="UpdaEmailAndPassw" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-      <h5 class="modal-title">Update email and password</h5>
-        <h5 class="modal-title" id="exampleModalLabel"><i class="fa-solid fa-arrow-right"  class="btn btn-secondary" data-bs-dismiss="modal"></i></h5>
-      </div>
-      <div class="modal-body">
-        <form action="" method="POST" >
-          <div class="mt-3 ms-5">
-            <label>current Email</label><br>
-            <input class="w-75 " readonly  type="email" value="<?php echo $EmailProfil?>"><br>
-            <label>new Email</label><br>
-            <input class="w-75 " id="inpEmail" type="email" name="inpEmail" placeholder="Email"><br> 
-          </div>
-
-          <div class="mt-3 ms-5">
-            <label>current Password </label><br>
-            <input class="w-75" id="inpPassw" name="currentPassw"  type="text" ><br>
-            <label>new Password</label><br>
-            <input class="w-75" type="text" name="newPasssw" placeholder="Password"><br>
-            <label>new Password</label><br>
-            <input class="w-75" type="text" placeholder="Password"><br>
-            <button type="sbmit" class=" w-75 mt-3 pt-2 pb-2 btnUpdateDataProfil" name="subupdateEmail" id="subUpdataProfil">Update</button>
-          </div>
-
-        </form>
-      </div>
-      <div class="modal-footer">
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- --------------------------------------------- -->
-
-
 <!-- sign out -->
 <div class="modal fade" id="SignOutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -162,7 +117,6 @@
 
 
 <!-- --------------------------------------------- -->
-
 
 <!-- Delete account -->
 <div class="modal fade" id="deleteconnte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -188,12 +142,5 @@
 
 
 <!-- --------------------------------------------- -->
-
-
-
-
-
-
-
 </body>
 </html>

@@ -4,8 +4,6 @@
     
 
 if (isset($_POST['submit'])) {
-    // $id_client = $_SESSION["N_cl"];
-    // $nom = $_SESSION["Nom"];
     $Title = $_POST['Title'];
     $Prix = $_POST['Prix'];
     // $D_pub = $_POST['D_pub'];
@@ -17,9 +15,6 @@ if (isset($_POST['submit'])) {
     $Categorie = $_POST['Categorie'];
     $Type = $_POST['Type'];
     $Email = $_SESSION['Email'];
-    // echo $Email;
-
-    // $N_cl = $db->lastInsertId();
 
     $data = [
         'Ti' => $Title,
@@ -32,7 +27,6 @@ if (isset($_POST['submit'])) {
         'Vi' => $Ville,
         'Ca' => $Categorie,
         'Ty' => $Type,
-        // 'cl' => $N_cl,
     ];
 
 
@@ -71,11 +65,5 @@ if (isset($_POST['submit'])) {
     //---------*insert the secondary images*----------------
     header('Location: pageClien.php');
     exit();
-
-
-
-       
-
-   
 }
 

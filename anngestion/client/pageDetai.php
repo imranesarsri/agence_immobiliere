@@ -7,12 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    
-
-
-
-
-<div class="modal fade" id="exam<?php echo $row["N_ann"] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="detail<?php echo $row["N_ann"] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -59,9 +54,5 @@
     </div>
   </div>
 </div>
-
-
-
-
 </body>
 </html>

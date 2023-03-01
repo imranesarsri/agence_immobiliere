@@ -45,20 +45,6 @@
     <div class="profil" id="profil">
         <img src="../image/profill.jpg" alt="">
       <i type="button" data-bs-toggle="modal" data-bs-target="#modalProfil" class="fa-solid fa-wand-magic-sparkles iconIdit" id="iconIdit"></i>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <?php include("modalProfil.php") ?>
     </div>
     <div class="text-center mt-3 mb-3" style="color:white">
@@ -110,24 +96,13 @@
     
 </section>
 <section>
-  
-  
-  
   <h2 class="text-center mt-5">My Annonce</h2>
   <div class="container p-5 text-center">
-    
-    
-    <?php
+<?php
 include("selectData.php");
 ?>
-
 </div>
 </section>
-
-
-
-
-
 
 <script src="https://kit.fontawesome.com/ad59909c53.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

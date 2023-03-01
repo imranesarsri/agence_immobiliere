@@ -1,12 +1,7 @@
 <?php
-
-
-
 session_start();
 
 include("connect.php");
-include("createTable.php");
-
 
 // INSERT database
 
@@ -25,8 +20,6 @@ if(isset($_POST['subBtSignUp'])){
 
     $selectEmail = "SELECT * FROM `client` WHERE `Email` = '$Email'";
     $resultEmail = $db->query($selectEmail);
-
-
 
     if($resultEmail->rowCount() <= 0){
         $_SESSION['Email'] = $Email;
@@ -50,8 +43,6 @@ if(isset($_POST['subBtSignUp'])){
             'Pas'  => $Mot_pas,
             'Tel'  => $N_tele
         ]);
-        
-        
     }else{
         $resultMessagEmail = "The email has already been used";
         $bordEmail = "border-bottom: 2px solid red";
@@ -62,7 +53,6 @@ if(isset($_POST['subBtSignUp'])){
         $valueEnterPassw = "$_POST[inpEnterPassw]";
         $valueinpNumber = "$_POST[inpNumber]";
 
-        
     }
 
 }; 

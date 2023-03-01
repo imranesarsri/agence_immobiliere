@@ -2,8 +2,6 @@
 session_start();
 
 include("connect.php");
-include("createTable.php");
-
 
 // INSERT database
 
@@ -19,6 +17,7 @@ if(isset($_POST['subBtSignIn'])){
 
     $selectEmail = "SELECT * FROM `client` WHERE `Email` = '$Email'";
     $resultEmail = $db->query($selectEmail);
+    
     $selectPassw = "SELECT * FROM `client` WHERE `Email` = '$Email' AND `Mot_pas` = '$md5' ";
     $resultPassw = $db->query($selectPassw);
 
